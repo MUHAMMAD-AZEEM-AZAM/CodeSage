@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# React/Frontend
+frontend/build/
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/.env.*
+backend/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+.coverage
+htmlcov/
+
+# Misc
+*.log 
