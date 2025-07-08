@@ -12,7 +12,7 @@ const ReviewPage = () => {
   const [reviewResult, setReviewResult] = useState(null);
   const [error, setError] = useState('');
 
-  const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+  const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://code-saga-e83e7b294ca1.herokuapp.com';
 
   React.useEffect(() => {
     if (!isAuthenticated) {
