@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
   const [sessionId, setSessionId] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+  const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://code-saga-e83e7b294ca1.herokuapp.com';
 
   const fetchUser = useCallback(async (sessionId) => {
     try {
